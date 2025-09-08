@@ -41,7 +41,7 @@ There are many ways this could be implemented, but I chose a MITM approach for s
 
 # How? (For the Most Curious)
 
-In a previous contest, the trick was simple: modify the game logic directly inside the JavaScript loaded by the page. This time things have changed, and the challenge was more interesting. To pull this off, I started with a lot of debugging.
+In a previous contest (see [here](https://www.redbull.com/it-it/projects/red-bull-giro-veloce) for more info), the trick was simple: modify the game logic directly inside the JavaScript loaded by the page. This time things have changed, and the challenge was more interesting. To pull this off, I started with a lot of debugging.
 
 ## Step 1: Observing the Traffic
 

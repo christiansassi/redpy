@@ -29,7 +29,7 @@
 
 # Introduction
 
-A friend introduced me to the Red Bull contest. The concept is simple: play the game they provide, and if you achieve a high score, you can win prizes. I am not particularly interested in the prizes themselves. What I enjoy most is exploring their code and finding creative ways to exploit it.
+A friend introduced me to Red Bull's contests. The idea is simple: play the game they provide and, if you get a high score, you can win prizes. I am not very interested in the prizes themselves. What I truly enjoy is exploring their code and finding creative ways to push its limits.
 
 This year's contest involved answering six questions correctly within the given time limit. Players also had access to a powerup that could boost their chances of winning or increase their final score.
 

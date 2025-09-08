@@ -23,6 +23,7 @@
   - [Python](#python)
 - [Usage](#usage)
 - [Demo](#demo)
+- [Known Limitations](#known-limitations)
 - [Contacts](#contacts)
 - [Disclaimer](#disclaimer)
 
@@ -163,7 +164,10 @@ This tool currently has two main limitations:
 
 # Contacts
 
-Christian Sassi - [sassi.christian@gmail.com](mailto:sassi.christian@gmail.com)
+For questions, feedback, or just curiosity about this project, feel free to reach out:
+
+<img src="https://go-skill-icons.vercel.app/api/icons?theme=light&i=gmail" width="16" style="position: relative; top: 2px; margin-right: 8px;" /> <a href="mailto:sassi.christian@gmail.com">sassi.christian@gmail.com</a>
+
 
 # Disclaimer
 

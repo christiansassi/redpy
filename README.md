@@ -1,10 +1,10 @@
 <div align="center">
-    <p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><p>
         <picture>
             <source media="(prefers-color-scheme: dark)" srcset="assets/redpy.png">
             <img alt="RedPy logo" src="assets/redpy.png" width="75%">
         </picture>
-    </p>
+    </p></a>
     <h2><strong>Red Bull didn’t hire me, so I gave their game wings :)</strong></h2>
 </div>
 
@@ -49,7 +49,7 @@ I first played the game and captured all requests and responses exchanged with t
 
 ## Step 2: Understanding the Encryption
 
-At this point, I needed to figure out how the requests were encrypted and whether decrypting them would help. Using my browser's developer tools, I inspected the call stack for these requests and traced them to [`bundle.js`](https://p-p.redbull.com/rb-global-muiz-stop-20-72-prod/bundle.js). The file was mostly readable except for a section that had clearly been obfuscated, so I focused my efforts there. After several failed attempts at deobfuscation, I had a simple but effective idea: ask ChatGPT to help me break the problem into smaller parts. To my surprise, it worked, gaining valuable insights about the obfuscated code, including the encryption function. 
+At this point, I needed to figure out how the requests were encrypted and whether decrypting them would help. Using my browser's developer tools, I inspected the call stack for these requests and traced them to [`bundle.js`](https://p-p.redbull.com/rb-global-muiz-stop-20-72-prod/bundle.js). The file was mostly readable except for a section that had clearly been obfuscated, so I focused my efforts there. After several failed attempts at deobfuscation, I had a simple but effective idea: ask ChatGPT to help me break the problem into smaller parts. To my surprise, it worked, gaining valuable insights about the obfuscated code, including the encryption function.
 
 > **Note on AI:**
 > I believe AI tools can be very useful when used thoughtfully and with a bit of critical thinking. I am against relying on them to do everything and simply copying and pasting the results, hoping they work without understanding why, when, or how. At the same time, they can be incredibly helpful when used as support. In this case, I asked for help breaking the problem into smaller pieces. The goal was not to have the AI do all the work but to gain insights into how things functioned so I could continue with my work.
@@ -111,7 +111,7 @@ Here is the process I used to achieve a near-perfect score:
 
 Following this strategy, I reached a final score of **67.833**.
 
-If you manage to score even higher, I would love to know how you did it.
+If you manage to score even higher, I would love to know how you did it! ![](assets/jawdrop.gif)
 
 # Installation and Configuration
 
@@ -176,4 +176,4 @@ This project is for **educational and research purposes only**. It demonstrates 
 Using this tool to gain unfair advantages in contests, games, or platforms you do not own or have permission to test may violate terms of service or laws. The author assumes **no responsibility** for misuse. By using this project, you are responsible for ensuring your actions are legal and ethical.
 
 ---
-Made with Python and way too much Red Bull.
+**Made with love and way too much Red Bull** ![](assets/smile.gif)

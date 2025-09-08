@@ -146,7 +146,20 @@ Install the required packages by running `pip install -r requirements.txt`.
 
 # Demo
 
-TODO
+<div align="center">
+    <p>
+        <img width="100%" src="assets/demo.gif"/>
+        <i>Demo</i>
+    </p>
+</div>
+
+# Known Limitations
+
+This tool currently has two main limitations:
+
+- **Speed**: as explained earlier, frame values are set to the lowest possible values that are still accepted by the server as valid. While this maximizes the score, a human reviewer could easily notice that the actions were performed unnaturally fast. You can modify the source code to experiment with more "human-like" frame values, but make sure they are realistic and reproducible by an actual player.
+
+- **Pairs Answers**: at the moment, the script simulates a single move that results in the correct final order, then submits the solution. This works but is not realistic for puzzles that would normally require multiple moves. Again, a manual review could detect this discrepancy. You could improve this by modifying the code to calculate the minimum number of moves needed to solve the puzzle and submit them sequentially, better simulating a real player's behavior.
 
 # Contacts
 

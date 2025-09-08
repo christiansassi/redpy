@@ -51,6 +51,7 @@ I first played the game and captured all requests and responses exchanged with t
 
 At this point, I needed to figure out how the requests were encrypted and whether decrypting them would help. Using my browser's developer tools, I inspected the call stack for these requests and traced them to [`bundle.js`](https://p-p.redbull.com/rb-global-muiz-stop-20-72-prod/bundle.js). The file was mostly readable except for a section that had clearly been obfuscated, so I focused my efforts there. After several failed attempts at deobfuscation, I had a simple but effective idea: ask ChatGPT to help me break the problem into smaller parts. To my surprise, it worked, gaining valuable insights about the obfuscated code, including the encryption function. 
 
+> **Note on AI:**
 > I believe AI tools can be very useful when used thoughtfully and with a bit of critical thinking. I am against relying on them to do everything and simply copying and pasting the results, hoping they work without understanding why, when, or how. At the same time, they can be incredibly helpful when used as support. In this case, I asked for help breaking the problem into smaller pieces. The goal was not to have the AI do all the work but to gain insights into how things functioned so I could continue with my work.
 
 ```js
@@ -137,7 +138,7 @@ Install the required packages by running `pip install -r requirements.txt`.
 4. Start a new game and play freely. Your answers do not matter because the script will intercept and submit the correct payload automatically.
 5. Once finished, save the result and complete the form.
 
-> [!Note]
+> [!TIP]
 > It is recommended to do everything while logged in so that the submitted form is linked to your account. If you plan to do this, log in before step 4.
 
 ⚠️ **To ensure a smooth experience, follow these recommendations:**

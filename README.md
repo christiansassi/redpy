@@ -166,7 +166,7 @@ This tool currently has two main limitations:
 
 For questions, feedback, or just curiosity about this project, feel free to reach out:
 
-[![Email](https://go-skill-icons.vercel.app/api/icons?theme=light&i=gmail)](mailto:sassi.christian@gmail.com)
+Christian Sassi - [sassi.christian@gmail.com](mailto:sassi.christian@gmail.com)
 
 # Disclaimer
 

@@ -166,8 +166,7 @@ This tool currently has two main limitations:
 
 For questions, feedback, or just curiosity about this project, feel free to reach out:
 
-<img src="https://go-skill-icons.vercel.app/api/icons?theme=light&i=gmail" width="16" style="position: relative; top: 2px; margin-right: 8px;" /> <a href="mailto:sassi.christian@gmail.com">sassi.christian@gmail.com</a>
-
+[![Email](https://go-skill-icons.vercel.app/api/icons?theme=light&i=gmail)](mailto:sassi.christian@gmail.com)
 
 # Disclaimer
 

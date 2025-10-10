@@ -4,9 +4,9 @@ from datetime import datetime
 
 from rich.console import Console
 
-from crypto_utils import decode
-from game_api import get_zoeid, new
-from proxy_injector import run
+from lib.crypto_utils import decode
+from lib.game_api import get_zoeid, new
+from lib.proxy_injector import run
 
 if __name__ == "__main__":
 

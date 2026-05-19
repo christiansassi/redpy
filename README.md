@@ -21,7 +21,7 @@ A friend introduced me to Red Bull's contests. The idea is simple: play the game
 # Games
 
 - [**Red Bull Quiz Stop 2.0**](Red%20Bull%20Quiz%20Stop%202.0) - quiz game with multiple-choice questions and image pairs.
-- [**Red Bull per un'estate scintillante**](RED%20BULL%20PER%20UN'ESTATE%20SCINTILLANTE) - 360° spot-it game where you have to find hidden cans inside a panoramic scene.
+- [**RED BULL PER UN'ESTATE SCINTILLANTE**](RED%20BULL%20PER%20UN'ESTATE%20SCINTILLANTE) - 360° spot-it game where you have to find hidden cans inside a panoramic scene.
 
 # Contacts
 

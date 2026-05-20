@@ -129,8 +129,6 @@ class Injector:
             },
         )
 
-        print(f"[!] Upstream error for {flow.request.pretty_url}: {reason}")
-
 async def run():
     """
     Starts a mitmproxy DumpMaster instance with the Injector addon.
@@ -148,11 +146,11 @@ async def run():
     opts = options.Options(
         listen_host="127.0.0.1",
         listen_port=8080,
-        # Don't bail on upstream certs we don't like — abs-gateway.redbull.com
-        # and other Red Bull endpoints can otherwise trigger a 502 inside mitm.
         ssl_insecure=True,
-        # Negotiate HTTP/2 with upstream when offered; abs-gateway requires it.
         http2=True,
+        # Tunnel CONNECTs to abs-gateway straight through — its WAF rejects
+        # mitm's TLS ClientHello, so let the browser handshake directly.
+        ignore_hosts=[r"^abs-gateway\.redbull\.com:443$"],
     )
     m = dump.DumpMaster(opts, with_termlog=False, with_dumper=False)
     m.addons.add(Injector())
